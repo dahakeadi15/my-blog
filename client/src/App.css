@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 img {
   max-width: 100%;
 }
@@ -60,4 +64,28 @@ div.post p.info a.author {
 div.post p.summary {
   margin: 10px 0;
   line-height: 1.5rem;
+}
+
+form.login,
+form.register {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 5px 10px;
+  border: 0;
+  border: 1px solid #252a34;
+}
+
+button {
+  width: 100%;
+  display: block;
+  background-color: #3c4048;
+  border: 0;
+  color: #eaeaea;
+  padding: 5px;
 }
