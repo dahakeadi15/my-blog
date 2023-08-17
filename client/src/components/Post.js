@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Post() {
   return (
     <div className="post">
@@ -10,9 +12,9 @@ export default function Post() {
       <div className="text">
         <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro!</h2>
         <p className="info">
-          <a href="" className="author">
+          <Link to="" className="author">
             Lorem Ipsum
-          </a>
+          </Link>
           <time>2023-01-01 15:45</time>
         </p>
         <p className="summary">
